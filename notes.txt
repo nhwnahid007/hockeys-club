@@ -15,3 +15,19 @@ linear-gradient(180deg,#13131880,#13131880)
             </div>
         </div>
     </section>
+
+
+    Academy
+Group Lesson
+Private Lesson
+Hockeys for kids
+Hockeys for Adult
+
+Services
+
+Help Center
+FAQ
+Ticket Support
+Contact Us
+
+Support
