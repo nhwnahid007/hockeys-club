@@ -2,3 +2,16 @@
 text-white my-10 grid gap grid-cols-1 lg:grid-cols-2 justify-center items-cente
 
 linear-gradient(180deg,#13131880,#13131880)
+
+<section class="container mx-auto px-8 my-8">
+        <div class="flex flex-col">
+            <h1 class="text-5xl font-extrabold">Social Media</h1>
+            <div class="flex">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+
+            </div>
+        </div>
+    </section>
