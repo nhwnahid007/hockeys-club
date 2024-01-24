@@ -531,31 +531,69 @@
         </div>
       </section>
       <section class="container mx-auto lg:px-24 px-8 my-8">
-        <div class="">
-           <div class="w-full lg:w-2/5 grid gap-5 border-2 rounded-md p-4">
-                <div class= "p-12 rounded-lg bg-[#f8fdf0]">
-                 <img src="Images/Group 1171275317.png" alt="">
-                 <p class="opacity-70">Phone Number:</p> 
-                <h1 class="font-semibold text-xl"> (+62) 123-321-543  </h1> 
-            </div>
-            <div class= "p-12 rounded-lg bg-[#fffcef]">
-                <img src="Images/Group 1171275318.png" alt="">
-                <p class="opacity-70">Email : 
+        <div class="grid gap-5 lg:grid-cols-5">
+           <div class="col-span-2">
+               <div class=" grid gap-5 border-2 rounded-md p-2">
+                    <div class= "p-10 rounded-lg bg-[#f8fdf0]">
+                     <img src="Images/Group 1171275317.png" alt="">
+                     <p class="opacity-70 py-3">Phone Number:</p> 
+                    <h1 class="font-semibold text-xl"> (+62) 123-321-543  </h1> 
+                </div>
+                <div class= "p-10 rounded-lg bg-[#fffcef]">
+                    <img src="Images/Group 1171275318.png" alt="">
+                    <p class="opacity-70 py-3">Email : 
+                        </p> 
+                   <h1 class="font-semibold text-xl"> hockeys@support.com </h1> 
+               </div>
+               <div class= "p-10  rounded-lg bg-[#eff5fe]">
+                <img src="Images/Group 1171275321.png" alt="">
+                <p class="opacity-70 py-3">Location : 
                     </p> 
-               <h1 class="font-semibold text-xl"> hockeys@support.com </h1> 
+               <h1 class="font-semibold text-xl"> 152/1 Mohakhali Wireless Gate </h1> 
+                 </div>
+               </div>
            </div>
-           <div class= "p-12 rounded-lg bg-[#eff5fe]">
-            <img src="Images/Group 1171275321.png" alt="">
-            <p class="opacity-70">Location : 
-                </p> 
-           <h1 class="font-semibold text-xl"> 152/1 Mohakhali Wireless Gate </h1> 
-             </div>
-           </div>
-            <div class="">
 
+           <!-- Input field -->
+            <div class=" col-span-3 py-5">
+                <div class="w-full grid gap-2 grid-cols-1 lg:grid-cols-2">
+                    <div class="">
+                        <label class="font-semibold" for="">Your name</label>
+                        <div class="">
+                            <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full " />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="font-semibold" for="">Your Email</label>
+                        <div class="">
+                            <input type="text" placeholder="Enter your Email" class="input input-bordered w-full " />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="font-semibold" for="">Subject</label>
+                        <div class="">
+                            <input type="text" placeholder="Enter your Subject" class="input input-bordered w-full " />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="font-semibold" for="">Phone Number</label>
+                        <div class="">
+                            <input type="text" placeholder="Enter Your Phone Number" class="input input-bordered w-full" />
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="mt-10 h-1/2">
+                    <label class="font-semibold" for="">Message</label>
+                    <textarea class="textarea textarea-bordered w-full h-full" placeholder="Bio"></textarea>
+                </div>
+
+                <button class="w-full btn bg-orange-600 mt-10 rounded-md">Send Message</button>
             </div>
         </div>
       </section>
+      
     </main>
   </body>
 </html>
